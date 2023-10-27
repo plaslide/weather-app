@@ -1,0 +1,54 @@
+Weather app
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Weather app</title>
+        <link 
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="containner">
+         <div class="search-box">
+         <i class="fa-solid fa-location-dot"></i>
+         <input type="text" placeholder="Enter where you want to see weather">
+         <button class="fa-solid fa-magnifyin"></button>
+         </div>
+
+         <div class="Not found">
+           <img src="https://th.bing.com/th/id/R.bbe45735e0be09358d3bb34ad996b137?rik=ke1Ws%2bUKVNHOsw&riu=http%3a%2f%2fwww.brownbearacademy.com%2fImages%2fm%2f404.jpg&ehk=HfKA3PcSPHSzHj%2f3n8wNKJLZqd5lOtRl7Z6a4Kv6rFg%3d&risl=&pid=ImgRaw&r=0" >
+           <p>Not found</p>
+    </div>
+
+    <div class="Weather-box">
+          <img src="">
+          <p classs="temperature"></p>
+          <p class="description"></p>
+
+    </div>
+
+    <div class="weather detail">
+        <p class="huminity"></p>
+        <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <p class="Wind"></p>
+            <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span></span>
+                        <p>Wind speed</p>
+                    </div>
+                </div>    
+    </div>
+
+    <script src="http://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    </body>
