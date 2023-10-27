@@ -1,0 +1,80 @@
+style
+* {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:none;
+    box-sizing:border-box;
+}
+
+body {
+    height:80vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color: burlywood;
+}
+.containner {
+    position: relative;
+    width: 400px;
+    height: 120px;
+    background-color: black;
+    padding: 28px 32px;
+    overflow: hidden;
+    border-radius: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    transition: 0.8s ease-out;
+}
+
+.search-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box input {
+    color: aqua;
+    width: 80%;
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 32px;   
+}
+
+.search-box input::placeholder {
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: black;
+
+}
+
+.search-box button {
+    cursor: crosshair;
+    width: 50px;
+    height: 50px;
+    color: blue;
+    background-color: azure;
+    border-radius: 50%;
+    font-size: 24px;
+    transition: 0.5s ease;
+
+} 
+
+.search-box button:hover{
+    color: blanchedalmond;
+    background-color: burlywood;
+}
+
+.search-box i {
+    position: absolute;
+    color: burlywood;
+    font-size: 30px;
+}
+
+.weather-box{
+    text-align: center;
+}
